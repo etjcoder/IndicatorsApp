@@ -19,6 +19,11 @@ class Home extends Component {
                 <Nav />
             <div className="jumbotron" style={{height: '500px'}}>
                 <h1>You're on the Home Page!</h1>
+                {/* Header Component, Basically a nice Jumbotron */}
+                {/* About Us on Left Component */}
+                {/* Sign In on Right Component */}
+                {/* Demo below */}
+                {/* Contact Form */}
             </div>
             </div>
         )

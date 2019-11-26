@@ -6,5 +6,6 @@ module.exports = {
     Mentor: require("./Mentor"),
     Sales: require("./Sales"),
     Todos: require("./Todos"),
-    TargetMktDials: require("./TargetMktDials")
+    TargetMktDials: require("./TargetMktDials"),
+    Notes: require("./Notes")
 }
