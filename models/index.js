@@ -1,7 +1,7 @@
 module.exports = {
     Appointments: require("./Appointments"),
     Protege: require("./Protege"),
-    Dials: require("./Dials"),
+    Dial: require("./Dial"),
     Manager: require("./Manager"),
     Mentor: require("./Mentor"),
     Sales: require("./Sales"),

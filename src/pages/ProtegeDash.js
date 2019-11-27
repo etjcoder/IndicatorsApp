@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Home.css";
 import Nav from "../components/Nav";
 // import Header from "../components/Header";
+import ProtegeCallBtnContainer from "../components/ProtegeCallBtnContainer"
 // import ProtegeC1 from "../components/ProtegeC1"
 // import ProtegeC2 from "../components/ProtegeC2"
 // import ProtegeC3 from "../components/ProtegeC3"
@@ -32,13 +33,17 @@ class ProtegeDash extends Component {
             <div>
                 <Nav />
                 <div className="jumbotron" style={{ height: '500px' }}>
-                    <h1>You're on the Protege Dashboard!</h1>
                     {/* ProtegeHeader */}
+                    <h1>You're on the Protege Dashboard!</h1>
+    
                     {/* Main Section 8/12 Left
                         --Has Tabbed Card
                         --Each Tab indicated a different button 
                         // Initially can list all buttons on a big ass dashboard
                     */}
+                    <ProtegeCallBtnContainer />
+                    
+
                     {/* Daily Results 4/12 Right
                         /// Top - Half ///
                         Dials: 

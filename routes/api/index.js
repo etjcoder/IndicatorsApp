@@ -1,12 +1,13 @@
 const router = require("express").Router();
 // const bookRoutes = require("./books");
 
-const callRoutes = require("./calls");
-const protegeRoutes = require("./protege");
-const supervisorRoutes = require("./supervisor");
+const dialRoutes = require("./dial");
+// const protegeRoutes = require("./protege");
+// const supervisorRoutes = require("./supervisor");
+// console.log("On API Page")
 
-router.use("/calls", callRoutes);
-router.use("/protege", protegeRoutes);
-router.use("/supervisor", supervisorRoutes);
+router.use("/dials", dialRoutes);
+// router.use("/protege", protegeRoutes);
+// router.use("/supervisor", supervisorRoutes);
 
 module.exports = router;
